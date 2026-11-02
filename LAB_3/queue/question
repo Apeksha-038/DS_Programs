@@ -1,0 +1,4 @@
+WAP to simulate the working of a queue of integers using an
+array. Provide the following operations: Insert, Delete, Display
+The program should print appropriate messages for queue
+empty and queue overflow conditions
