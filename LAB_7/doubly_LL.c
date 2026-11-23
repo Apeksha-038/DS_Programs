@@ -6,7 +6,7 @@ struct node {
     struct node *prev, *next;
 };
 
-// Create a doubly linked list
+
 struct node* create(struct node *head, int n) {
     struct node *newnode, *temp;
     int i, value;
@@ -35,7 +35,7 @@ struct node* create(struct node *head, int n) {
     return head;
 }
 
-// Insert a new node to the left of a given value
+
 struct node* insertLeft(struct node *head, int key, int value) {
     struct node *temp, *newnode;
 
@@ -68,7 +68,7 @@ struct node* insertLeft(struct node *head, int key, int value) {
     return head;
 }
 
-// Delete a node based on a specific value
+
 struct node* deleteNode(struct node *head, int key) {
     struct node *temp = head;
 
@@ -97,7 +97,7 @@ struct node* deleteNode(struct node *head, int key) {
     return head;
 }
 
-// Display the doubly linked list
+
 void display(struct node *head) {
     struct node *temp = head;
 
@@ -116,7 +116,7 @@ void display(struct node *head) {
     printf("NULL\n");
 }
 
-// Main function
+
 int main() {
     struct node *head = NULL;
     int n, choice, key, value;
