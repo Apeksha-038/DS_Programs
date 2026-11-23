@@ -1,0 +1,6 @@
+Write a program to implement a doubly linked list with primitive operations.
+
+Create a doubly linked list.
+Insert a new node to the left of thenode.
+Delete the node based on a specific value
+Displaythe contents of the list
